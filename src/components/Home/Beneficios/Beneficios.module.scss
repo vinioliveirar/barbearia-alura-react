@@ -1,0 +1,37 @@
+.section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.titulo h3{
+  font-size: 22px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.ulItens{
+  padding: 10px 0;
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.liItens{
+  border: 1px solid #BBBBBB;
+  box-shadow: 1px 1px 5px #a8a8a8;
+  border-radius: 15px 5px;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  cursor: default;
+}
+.liItens:hover{
+  background: #BBBBBB;
+}
+
+@media only screen and (max-width: 580px) {
+  .ulItens{
+    flex-direction: column;
+  }
+}

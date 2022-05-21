@@ -22,5 +22,8 @@
   },
   "include": [
     "src"
-  ]
+  ],
+  "plugin":[{
+    "name":"typescript-plugin-css-modules"
+  }]
 }
